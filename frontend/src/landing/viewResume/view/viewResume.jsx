@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import ResumePreview from "../../dashboard/Resume/components/ResumePreview";
 import { useResume } from "../../../context/ResumeContext.jsx";
-import "./ViewResume.css";
+import "./viewResume.css";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 

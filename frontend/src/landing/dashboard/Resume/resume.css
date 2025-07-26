@@ -1,0 +1,45 @@
+.edit-form{
+    margin: 25px 5px;
+}
+
+.preview-column {
+    margin-top: 4.2rem;
+}
+
+.resume-preview{
+    height: 98.5%;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 12px 0px, rgba(0, 0, 0, 0.1) 4px 4px 12px 0px,  rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset
+}
+
+@media screen and (max-width: 1070px) {
+    .edit-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .preview-column{
+        margin-top: 1.2rem;
+    }
+ 
+}
+
+@media screen and (max-width: 800px) {
+   
+   .preview-column{
+        margin-top: 1.2rem;
+    }
+    .edit-phone{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .preview-personal {
+     flex-wrap: wrap;
+    }
+    .navigation-btn{
+        padding-inline: 5px !important;
+    }
+}
+

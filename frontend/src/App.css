@@ -1,0 +1,51 @@
+.light-theme{
+    background-color: white;
+    color: black;
+    --clr: black;
+    --text-clr: black;
+    --arr-bg-clr: rgb(2, 2, 45);
+    --arr-clr: white;
+    --rsm-clr: rgb(242, 245, 248);
+    --frm-clr: white;
+}
+
+.dark-theme{
+    background-color: rgb(2, 2, 48);
+    color: white;
+    --clr: white;
+    --text-clr: black;
+    --arr-bg-clr: white;
+    --arr-clr: rgb(2, 2, 45);
+    --rsm-clr: rgba(25, 58, 94, 0.785);
+    --frm-clr: rgba(25, 58, 94, 0.785); 
+}
+
+.resume-cards{
+    background-color: var(--rsm-clr);
+    border: var(--rsm-clr);
+}
+
+.forms-cards{
+    background-color: var(--frm-clr);
+    border: var(--frm-clr);
+}
+
+.footer{
+    color: var(--clr);
+}
+
+.text-muted{
+    color: var(--clr) !important;
+}
+
+.material-symbols-outlined{
+    color: var(--text-clr);
+}
+
+.top-btn{
+    background-color: var(--arr-bg-clr) ;
+}
+
+.fa-solid{
+    color: var(--arr-clr);
+}

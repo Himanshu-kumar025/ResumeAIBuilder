@@ -1,0 +1,68 @@
+.card{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
+}
+
+.card:hover{
+    background-color: rgb(23,108,199);
+    color: white;
+}
+
+.home-row{
+    padding: 1.2rem;
+}
+
+.card-container{
+  margin-bottom: 7rem;
+}
+
+.home-container{
+    text-align: center;
+    margin: 30px 0px 100px 0px;
+}
+
+.home-row h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.home-grad{
+    background:linear-gradient(45deg, rgb(17 51 110), rgb(62 159 239));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-text {
+    margin: 30px auto;
+}
+
+.home-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+.home-btn button{
+    margin-right: 20px;
+    padding: 10px 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .home-row h1{
+        font-size: 45px ;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-row h1{
+        font-size: 38px ;
+    }
+    .home-row div{
+        font-size: 15px ;
+    }
+}

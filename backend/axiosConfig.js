@@ -1,8 +1,8 @@
 import axios from "axios"
 
 // Define URLs for frontend & backend of the application
-const BASE_URL = "http://localhost:3002";
-const FRONTEND_URL = "http://localhost:5173";
+export const BASE_URL = "https://resumeaibuilder-g0bx.onrender.com";
+export const FRONTEND_URL = "https://resume-ai-builder-woad.vercel.app";
 
 // Create an Axios instance pre-configured with base settings
 const clientServer = axios.create({
